@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box1{
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid #c33;
+}
+.box1_item{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.box1_item_left{
+	width: 310px;
+	height: 100px;
+	float: left;
+}
+.box1_item_left a{
+	width: 311px;
+	height: 100px;
+	display: block;
+	text-decoration: none;
+}
+.box1_item_left img{
+	margin: 14px auto;
+}
+.box1_item_right{
+	height: 30px;
+	float: right;
+	line-height: 30px;
+	padding-top: 40px;
+}
+.box1_item_right_textFa{
+	float: left;
+	list-style: none;
+}
+.box1_item_right_textFa li{
+	width: 85px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	text-align: center;
+}
+.box1_item_right_textFa li a{
+	width:69px; 
+	text-decoration: none;
+	color: #999;
+}
+.erji{
+	text-align: center;
+	background: pink;
+
+}
+.erji li{
+	width: 100%;
+	line-height: 23px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2{
+	width: 100%;
+	height: 450px;
+	margin: 50px auto;
+}
+.box2_item{
+	width: 900px;
+	height: 450px;
+	margin: 0 auto;
+}
+.box2_item_text{
+	width: 360px;
+	height: 360px;
+	float: right;
+}
+.box2_item_text_ul{list-style: none;}
+.box2_item_text_ul .li1{
+	width: 100%;
+	height: 20px;
+}
+.box2_item_text_ul p{
+	width: 120px;
+	height: 20px;
+	font-size: 15px;
+	float: left;
+	line-height: 20px;
+}
+.box2_item_text_ul a{
+	text-decoration: none;
+	float: left;
+	color: gray;
+	font-size: 14px;
+	line-height: 20px;
+}
+.box2_item_text_form{
+	width: 360px;
+	height: 330px;
+	border: 1px solid #ccc;
+	background-color: #efefef;
+	margin: 5px 0.1px;
+}
+.box2_item_text_fombac{
+	width: 350px;
+	height: 300px;
+	margin: 5px;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #fff;
+}
+.box2_form{
+	width: 350px;
+	height: 200px;
+	display:block;
+	text-align: center;
+}
+.box2_form_input1{
+	width: 300px;
+	height: 28px;
+	font-size: 14px;
+	margin: 0 auto 15px;
+	color: #333;
+}
+.input_style{
+	width: 200px;
+	height: 28px;
+	border: 1px solid #dadada;
+	border-top:1px solid #bababa; 
+}
+.box2_form_input input{
+	line-height: 26px;
+}
+.box2_form_input2{
+	width: 300px;
+	height: 28px;
+	font-size: 14px;
+	margin: 0 auto 15px;
+	color: #333;
+	margin-left: 42px;
+}
+.box2_form_input3{
+	width: 290px;
+	height: 28px;
+	font-size: 14px;
+	margin: 0 auto 15px;
+	color: #333;
+	margin-left:64px;
+}
+.input_style1{
+	width: 40px;
+	height: 28px;
+	float: left;
+	border: 1px solid #dadada;
+	border-top:1px solid #bababa; 
+}
+.box2_form_input3 span{
+	float: left;
+	line-height: 28px;
+}
+.box2_form_input3 img{
+	display: inline-block;
+	height: 28px;
+	width: 40px;
+	float: left;
+}
+.box2_form_input3 a{
+	text-decoration: none;
+	height: 28px;
+	width: 44px;
+	float: left;
+	font-size: 14px;
+	line-height: 28px;
+	color: blue;
+}
+.box2_form_input3 a:hover{
+	color: #c33;
+}
+.box2_form_input4 {
+	font-size: 14px;
+	margin: 0 auto 15px;
+}
+.box2_form_input5{
+	width: 300px;
+	height: 28px;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 auto 15px;
+	color: #333;
+	display: flex;
+	justify-content: center;
+}
+.box2_form_input5_a1{
+	width: 67px;
+	height: 28px;
+}
+.box2_form_input5_a2{
+	width: 67px;
+	height: 28px;
+	margin-left: 20px;
+}
+.box2_form_input5_a2 a{
+	line-height: 28px;
+	display:inline-block;
+}
+.box3_form{
+	width: 350px;
+	height: 20px;
+}
+.box3_form_xian{
+	width: 280px;
+	height: 1px;
+	background: gray;
+	margin: 0 auto;
+	opacity: 0.2;
+}
+.box4_form{
+	height: 30px;
+	width: 350px;
+	float: left;
+	display: flex;
+	justify-content: center;
+}
+.box4_form li{
+	height: 30px;
+	width: 110px;
+	font-size: 14px;
+	display: inline-block;
+	list-style: none;
+	margin-left: 12px;
+}
+
+.box4_form_li1 a{
+	display: inline-block;
+	margin: 5px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.box4_form_li1 a img{
+	width: 23px;
+	height: 20px;
+	display: inline-block;
+}
+.box4_form_li1 a:hover{
+	color: #c33;
+} 
+#box4_form_li2{
+	height: 30px;
+	width: 150px;
+	margin-left: 5px;
+}
+#box4_form_li2 a{
+	display: inline-block;
+	margin: 5px auto;
+}
+#box4_form_li2 i{
+	width: 23px;
+	height: 20px;
+	float: left;
+	background: url(../img/enterimg/za_03.jpg)no-repeat;
+}
+#box4_form_li2 a:hover{
+	color: #c33;
+}
+.box4_form_li3 a{
+	display: inline-block;
+	margin: 5px auto;
+}
+.box4_form_li3 i{
+	width: 23px;
+	height: 20px;
+	float: left;
+	background: url(../img/enterimg/b.png)no-repeat;
+}
+.box4_form_li3 a:hover{
+	color: #c33;
+}
+.box5{
+	width: 100%;
+	height: 55px;
+	margin-top: 6px;
+	font-size: 14px;
+}
+.box5 p{
+	color: gray;
+}
+.box5_p1{
+	width: 600px;
+	height: 20px;
+	margin: 0 auto;
+}
+.box5_p2{
+	width: 300px;
+	height: 20px;
+	margin: 0 auto;
+}
+.box5_p3{
+	width: 250px;
+	height: 20px;
+	margin: 0 auto;
+}
